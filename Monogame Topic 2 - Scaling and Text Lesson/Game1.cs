@@ -74,7 +74,7 @@ namespace Monogame_Topic_2___Scaling_and_Text_Lesson
             _spriteBatch.Draw(circleTexture, circleEye1Rect, Color.Black);
             _spriteBatch.Draw(circleTexture, circleEye2Rect, Color.Black);
             _spriteBatch.Draw(rectangleTexture, rectangleMouthRect, Color.Black);
-            _spriteBatch.DrawString(titleFont, "Test", new Vector2(10, 10), Color.White);
+            _spriteBatch.DrawString(titleFont, "Hello world!", new Vector2(320, 407), Color.White);
 
             _spriteBatch.End();
 
